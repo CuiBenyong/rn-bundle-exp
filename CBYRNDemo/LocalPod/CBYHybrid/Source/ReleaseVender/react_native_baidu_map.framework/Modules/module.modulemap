@@ -1,0 +1,6 @@
+framework module react_native_baidu_map {
+  umbrella header "react-native-baidu-map-umbrella.h"
+
+  export *
+  module * { export * }
+}

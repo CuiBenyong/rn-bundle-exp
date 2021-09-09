@@ -1,0 +1,6 @@
+framework module RCTWeChat {
+  umbrella header "RCTWeChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D1ABF42423B90200B42DE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1ABF32423B90200B42DE3 /* AppDelegate.m */; };
+		07D1ABF72423B90200B42DE3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1ABF62423B90200B42DE3 /* FirstViewController.m */; };
+		07D1ABFD2423B90200B42DE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D1ABFB2423B90200B42DE3 /* Main.storyboard */; };
+		07D1ABFF2423B90300B42DE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D1ABFE2423B90300B42DE3 /* Assets.xcassets */; };
+		07D1AC022423B90300B42DE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D1AC002423B90300B42DE3 /* LaunchScreen.storyboard */; };
+		07D1AC052423B90300B42DE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1AC042423B90300B42DE3 /* main.m */; };
+		0928376A3F989A9571D11841 /* libPods-CBYRNDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD70ADFCB76A8E666BAE2ED1 /* libPods-CBYRNDemo.a */; };
+		C101F8BE24248CF600F6F66D /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C101F8BD24248CF600F6F66D /* LoadingViewController.m */; };
+		C110A8512440144700908DBB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C110A8502440144700908DBB /* WebKit.framework */; };
+		C11F493624244422003326FF /* RNBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C11F493524244422003326FF /* RNBridge.m */; };
+		C125C1D624442DD300141DB1 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C125C1D524442DD300141DB1 /* BaseNavigationViewController.m */; };
+		C12E3654242A2D6000C5FBE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E3653242A2D6000C5FBE0 /* CoreGraphics.framework */; };
+		C12E3656242A2D6700C5FBE0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E3655242A2D6700C5FBE0 /* CoreLocation.framework */; };
+		C12E3658242A2D7000C5FBE0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E3657242A2D7000C5FBE0 /* libc++.tbd */; };
+		C12E365A242A2D7900C5FBE0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E3659242A2D7900C5FBE0 /* libsqlite3.0.tbd */; };
+		C12E365C242A2D7F00C5FBE0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E365B242A2D7F00C5FBE0 /* OpenGLES.framework */; };
+		C12E365E242A2D8500C5FBE0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E365D242A2D8500C5FBE0 /* QuartzCore.framework */; };
+		C12E3660242A2D8A00C5FBE0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E365F242A2D8A00C5FBE0 /* Security.framework */; };
+		C12E3662242A2D8F00C5FBE0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E3661242A2D8F00C5FBE0 /* SystemConfiguration.framework */; };
+		C12E3664242A2D9600C5FBE0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E3663242A2D9600C5FBE0 /* libz.tbd */; };
+		C12E3666242A2F7900C5FBE0 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12E3665242A2F7900C5FBE0 /* AdSupport.framework */; };
+		C1484D422423B9C6007F1D75 /* RNResources in Resources */ = {isa = PBXBuildFile; fileRef = C1484D412423B9C6007F1D75 /* RNResources */; };
+		C1484D482423BF3A007F1D75 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1484D472423BF3A007F1D75 /* BaseViewController.m */; };
+		C1A402E02433750E00771BFA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A402DF2433750E00771BFA /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07D1ABEF2423B90200B42DE3 /* CBYRNDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBYRNDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D1ABF22423B90200B42DE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07D1ABF32423B90200B42DE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07D1ABF52423B90200B42DE3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		07D1ABF62423B90200B42DE3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		07D1ABFC2423B90200B42DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D1ABFE2423B90300B42DE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D1AC012423B90300B42DE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D1AC032423B90300B42DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D1AC042423B90300B42DE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		209C934CE1A9AC86AE6C5E31 /* Pods-CBYRNDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBYRNDemo.debug.xcconfig"; path = "Target Support Files/Pods-CBYRNDemo/Pods-CBYRNDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3ECE5F7F86C4F05509315A26 /* Pods-CBYRNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBYRNDemo.release.xcconfig"; path = "Target Support Files/Pods-CBYRNDemo/Pods-CBYRNDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AD70ADFCB76A8E666BAE2ED1 /* libPods-CBYRNDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBYRNDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C101F8BC24248CF600F6F66D /* LoadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		C101F8BD24248CF600F6F66D /* LoadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		C110A8502440144700908DBB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C11F493424244422003326FF /* RNBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBridge.h; sourceTree = "<group>"; };
+		C11F493524244422003326FF /* RNBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridge.m; sourceTree = "<group>"; };
+		C125C1D424442DD300141DB1 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		C125C1D524442DD300141DB1 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		C12E3653242A2D6000C5FBE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C12E3655242A2D6700C5FBE0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C12E3657242A2D7000C5FBE0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C12E3659242A2D7900C5FBE0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C12E365B242A2D7F00C5FBE0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C12E365D242A2D8500C5FBE0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C12E365F242A2D8A00C5FBE0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C12E3661242A2D8F00C5FBE0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C12E3663242A2D9600C5FBE0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C12E3665242A2F7900C5FBE0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C1484D412423B9C6007F1D75 /* RNResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RNResources; sourceTree = "<group>"; };
+		C1484D462423BF3A007F1D75 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C1484D472423BF3A007F1D75 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C16F2B5524656422009B49A2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		C16F2B5624656422009B49A2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		C1A402DF2433750E00771BFA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D1ABEC2423B90200B42DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C110A8512440144700908DBB /* WebKit.framework in Frameworks */,
+				C1A402E02433750E00771BFA /* CoreTelephony.framework in Frameworks */,
+				C12E3662242A2D8F00C5FBE0 /* SystemConfiguration.framework in Frameworks */,
+				C12E3666242A2F7900C5FBE0 /* AdSupport.framework in Frameworks */,
+				C12E3664242A2D9600C5FBE0 /* libz.tbd in Frameworks */,
+				C12E3660242A2D8A00C5FBE0 /* Security.framework in Frameworks */,
+				C12E365E242A2D8500C5FBE0 /* QuartzCore.framework in Frameworks */,
+				C12E365C242A2D7F00C5FBE0 /* OpenGLES.framework in Frameworks */,
+				C12E365A242A2D7900C5FBE0 /* libsqlite3.0.tbd in Frameworks */,
+				C12E3658242A2D7000C5FBE0 /* libc++.tbd in Frameworks */,
+				C12E3656242A2D6700C5FBE0 /* CoreLocation.framework in Frameworks */,
+				C12E3654242A2D6000C5FBE0 /* CoreGraphics.framework in Frameworks */,
+				0928376A3F989A9571D11841 /* libPods-CBYRNDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D1ABE62423B90200B42DE3 = {
+			isa = PBXGroup;
+			children = (
+				07D1ABF12423B90200B42DE3 /* CBYRNDemo */,
+				07D1ABF02423B90200B42DE3 /* Products */,
+				2AF9A6D18B17DBE3EABA888D /* Pods */,
+				FBC9D0B56A69C4615F822D12 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07D1ABF02423B90200B42DE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D1ABEF2423B90200B42DE3 /* CBYRNDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D1ABF12423B90200B42DE3 /* CBYRNDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C11F493324244403003326FF /* bridges */,
+				C1484D4C2423C066007F1D75 /* ViewController */,
+				C1484D412423B9C6007F1D75 /* RNResources */,
+				07D1ABF22423B90200B42DE3 /* AppDelegate.h */,
+				07D1ABF32423B90200B42DE3 /* AppDelegate.m */,
+				07D1ABFB2423B90200B42DE3 /* Main.storyboard */,
+				07D1ABFE2423B90300B42DE3 /* Assets.xcassets */,
+				07D1AC002423B90300B42DE3 /* LaunchScreen.storyboard */,
+				07D1AC032423B90300B42DE3 /* Info.plist */,
+				07D1AC042423B90300B42DE3 /* main.m */,
+			);
+			path = CBYRNDemo;
+			sourceTree = "<group>";
+		};
+		2AF9A6D18B17DBE3EABA888D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				209C934CE1A9AC86AE6C5E31 /* Pods-CBYRNDemo.debug.xcconfig */,
+				3ECE5F7F86C4F05509315A26 /* Pods-CBYRNDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C11F493324244403003326FF /* bridges */ = {
+			isa = PBXGroup;
+			children = (
+				C11F493424244422003326FF /* RNBridge.h */,
+				C11F493524244422003326FF /* RNBridge.m */,
+			);
+			path = bridges;
+			sourceTree = "<group>";
+		};
+		C1484D4C2423C066007F1D75 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				07D1ABF52423B90200B42DE3 /* FirstViewController.h */,
+				07D1ABF62423B90200B42DE3 /* FirstViewController.m */,
+				C1484D462423BF3A007F1D75 /* BaseViewController.h */,
+				C1484D472423BF3A007F1D75 /* BaseViewController.m */,
+				C101F8BC24248CF600F6F66D /* LoadingViewController.h */,
+				C101F8BD24248CF600F6F66D /* LoadingViewController.m */,
+				C125C1D424442DD300141DB1 /* BaseNavigationViewController.h */,
+				C125C1D524442DD300141DB1 /* BaseNavigationViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FBC9D0B56A69C4615F822D12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C110A8502440144700908DBB /* WebKit.framework */,
+				C1A402DF2433750E00771BFA /* CoreTelephony.framework */,
+				C12E3665242A2F7900C5FBE0 /* AdSupport.framework */,
+				C12E3663242A2D9600C5FBE0 /* libz.tbd */,
+				C12E3661242A2D8F00C5FBE0 /* SystemConfiguration.framework */,
+				C12E365F242A2D8A00C5FBE0 /* Security.framework */,
+				C12E365D242A2D8500C5FBE0 /* QuartzCore.framework */,
+				C12E365B242A2D7F00C5FBE0 /* OpenGLES.framework */,
+				C12E3659242A2D7900C5FBE0 /* libsqlite3.0.tbd */,
+				C12E3657242A2D7000C5FBE0 /* libc++.tbd */,
+				C12E3655242A2D6700C5FBE0 /* CoreLocation.framework */,
+				C12E3653242A2D6000C5FBE0 /* CoreGraphics.framework */,
+				AD70ADFCB76A8E666BAE2ED1 /* libPods-CBYRNDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D1ABEE2423B90200B42DE3 /* CBYRNDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D1AC082423B90300B42DE3 /* Build configuration list for PBXNativeTarget "CBYRNDemo" */;
+			buildPhases = (
+				A02BDF0F9CBA459D7B733F45 /* [CP] Check Pods Manifest.lock */,
+				07D1ABEB2423B90200B42DE3 /* Sources */,
+				07D1ABEC2423B90200B42DE3 /* Frameworks */,
+				07D1ABED2423B90200B42DE3 /* Resources */,
+				7C8D6D8CCF3344B6AA265F37 /* [CP] Embed Pods Frameworks */,
+				E2A1BDA41526B40148331C35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBYRNDemo;
+			productName = CBYRNDemo;
+			productReference = 07D1ABEF2423B90200B42DE3 /* CBYRNDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D1ABE72423B90200B42DE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Eric;
+				TargetAttributes = {
+					07D1ABEE2423B90200B42DE3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 07D1ABEA2423B90200B42DE3 /* Build configuration list for PBXProject "CBYRNDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 07D1ABE62423B90200B42DE3;
+			productRefGroup = 07D1ABF02423B90200B42DE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D1ABEE2423B90200B42DE3 /* CBYRNDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D1ABED2423B90200B42DE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D1AC022423B90300B42DE3 /* LaunchScreen.storyboard in Resources */,
+				07D1ABFF2423B90300B42DE3 /* Assets.xcassets in Resources */,
+				C1484D422423B9C6007F1D75 /* RNResources in Resources */,
+				07D1ABFD2423B90200B42DE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C8D6D8CCF3344B6AA265F37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CBYRNDemo/Pods-CBYRNDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CBYRNDemo/Pods-CBYRNDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CBYRNDemo/Pods-CBYRNDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02BDF0F9CBA459D7B733F45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CBYRNDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2A1BDA41526B40148331C35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CBYRNDemo/Pods-CBYRNDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CBYRNDemo/Pods-CBYRNDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CBYRNDemo/Pods-CBYRNDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D1ABEB2423B90200B42DE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1484D482423BF3A007F1D75 /* BaseViewController.m in Sources */,
+				07D1ABF42423B90200B42DE3 /* AppDelegate.m in Sources */,
+				07D1AC052423B90300B42DE3 /* main.m in Sources */,
+				C125C1D624442DD300141DB1 /* BaseNavigationViewController.m in Sources */,
+				07D1ABF72423B90200B42DE3 /* FirstViewController.m in Sources */,
+				C11F493624244422003326FF /* RNBridge.m in Sources */,
+				C101F8BE24248CF600F6F66D /* LoadingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07D1ABFB2423B90200B42DE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D1ABFC2423B90200B42DE3 /* Base */,
+				C16F2B5524656422009B49A2 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D1AC002423B90300B42DE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D1AC012423B90300B42DE3 /* Base */,
+				C16F2B5624656422009B49A2 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D1AC062423B90300B42DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07D1AC072423B90300B42DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D1AC092423B90300B42DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209C934CE1A9AC86AE6C5E31 /* Pods-CBYRNDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3483B63686;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LocalPod/react-native-cby-alipay/ios/resources",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = CBYRNDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CBYHybrid\"",
+					"-l\"c\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"ssl\"",
+					"-l\"z\"",
+					"-framework",
+					"\"BVLinearGradient\"",
+					"-framework",
+					"\"CoreModules\"",
+					"-framework",
+					"\"DoubleConversion\"",
+					"-framework",
+					"\"FBReactNativeSpec\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"Picker\"",
+					"-framework",
+					"\"RCTActionSheet\"",
+					"-framework",
+					"\"RCTAnimation\"",
+					"-framework",
+					"\"RCTBlob\"",
+					"-framework",
+					"\"RCTImage\"",
+					"-framework",
+					"\"RCTLinking\"",
+					"-framework",
+					"\"RCTNetwork\"",
+					"-framework",
+					"\"RCTSettings\"",
+					"-framework",
+					"\"RCTText\"",
+					"-framework",
+					"\"RCTTypeSafety\"",
+					"-framework",
+					"\"RCTVibration\"",
+					"-framework",
+					"\"RCTWeChat\"",
+					"-framework",
+					"\"RNCAsyncStorage\"",
+					"-framework",
+					"\"RNDateTimePicker\"",
+					"-framework",
+					"\"RNFS\"",
+					"-framework",
+					"\"RNGestureHandler\"",
+					"-framework",
+					"\"RNImageCropPicker\"",
+					"-framework",
+					"\"RNReanimated\"",
+					"-framework",
+					"\"RNSVG\"",
+					"-framework",
+					"\"RNScreens\"",
+					"-framework",
+					"\"RSKImageCropper\"",
+					"-framework",
+					"\"React\"",
+					"-framework",
+					"\"ReactCommon\"",
+					"-framework",
+					"\"ReactNativeART\"",
+					"-framework",
+					"\"ReactNativeExceptionHandler\"",
+					"-framework",
+					"\"cxxreact\"",
+					"-framework",
+					"\"folly\"",
+					"-framework",
+					"\"glog\"",
+					"-framework",
+					"\"jsi\"",
+					"-framework",
+					"\"jsinspector\"",
+					"-framework",
+					"\"jsireact\"",
+					"-framework",
+					"\"react_native_orientation\"",
+					"-framework",
+					"\"react_native_safe_area_context\"",
+					"-framework",
+					"\"react_native_splash_screen\"",
+					"-framework",
+					"\"react_native_video\"",
+					"-framework",
+					"\"react_native_webview\"",
+					"-framework",
+					"\"yoga\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanminlie.cby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		07D1AC0A2423B90300B42DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECE5F7F86C4F05509315A26 /* Pods-CBYRNDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3483B63686;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LocalPod/react-native-cby-alipay/ios/resources",
+				);
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = CBYRNDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CBYHybrid\"",
+					"-l\"c\"",
+					"-l\"c++\"",
+					"-l\"crypto\"",
+					"-l\"ssl\"",
+					"-l\"z\"",
+					"-framework",
+					"\"BVLinearGradient\"",
+					"-framework",
+					"\"CoreModules\"",
+					"-framework",
+					"\"DoubleConversion\"",
+					"-framework",
+					"\"FBReactNativeSpec\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"Picker\"",
+					"-framework",
+					"\"RCTActionSheet\"",
+					"-framework",
+					"\"RCTAnimation\"",
+					"-framework",
+					"\"RCTBlob\"",
+					"-framework",
+					"\"RCTImage\"",
+					"-framework",
+					"\"RCTLinking\"",
+					"-framework",
+					"\"RCTNetwork\"",
+					"-framework",
+					"\"RCTSettings\"",
+					"-framework",
+					"\"RCTText\"",
+					"-framework",
+					"\"RCTTypeSafety\"",
+					"-framework",
+					"\"RCTVibration\"",
+					"-framework",
+					"\"RCTWeChat\"",
+					"-framework",
+					"\"RNCAsyncStorage\"",
+					"-framework",
+					"\"RNDateTimePicker\"",
+					"-framework",
+					"\"RNFS\"",
+					"-framework",
+					"\"RNGestureHandler\"",
+					"-framework",
+					"\"RNImageCropPicker\"",
+					"-framework",
+					"\"RNReanimated\"",
+					"-framework",
+					"\"RNSVG\"",
+					"-framework",
+					"\"RNScreens\"",
+					"-framework",
+					"\"RSKImageCropper\"",
+					"-framework",
+					"\"React\"",
+					"-framework",
+					"\"ReactCommon\"",
+					"-framework",
+					"\"ReactNativeART\"",
+					"-framework",
+					"\"ReactNativeExceptionHandler\"",
+					"-framework",
+					"\"cxxreact\"",
+					"-framework",
+					"\"folly\"",
+					"-framework",
+					"\"glog\"",
+					"-framework",
+					"\"jsi\"",
+					"-framework",
+					"\"jsinspector\"",
+					"-framework",
+					"\"jsireact\"",
+					"-framework",
+					"\"react_native_orientation\"",
+					"-framework",
+					"\"react_native_safe_area_context\"",
+					"-framework",
+					"\"react_native_splash_screen\"",
+					"-framework",
+					"\"react_native_video\"",
+					"-framework",
+					"\"react_native_webview\"",
+					"-framework",
+					"\"yoga\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quanminlie.cby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D1ABEA2423B90200B42DE3 /* Build configuration list for PBXProject "CBYRNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D1AC062423B90300B42DE3 /* Debug */,
+				07D1AC072423B90300B42DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D1AC082423B90300B42DE3 /* Build configuration list for PBXNativeTarget "CBYRNDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D1AC092423B90300B42DE3 /* Debug */,
+				07D1AC0A2423B90300B42DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D1ABE72423B90200B42DE3 /* Project object */;
+}

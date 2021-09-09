@@ -1,0 +1,92 @@
+<form class="layui-form layui-card" action="{:request()->url()}" data-auto="true" method="post" autocomplete="off">
+    <div class="layui-card-body padding-left-40">
+        <div class="layui-row layui-col-space15">
+            <div class="layui-col-xs2 text-center">
+                <input type="file" name="file" value="{$vo.url|default=''}" data-field="url" data-type="zip">
+                <input type="hidden" name="url" />
+                <script>
+                    $('[name=file]').uploadFile(((url, file) => {
+                        console.log(url, file)
+                        const {
+                            name,xmd5
+                        } = file;
+                        const parterns = name.split("-");
+                        const biz = parterns[0]
+                        const version = parterns[1];
+                        const subversion = parterns[2].split(".")[0];
+                        const platform = parterns[3].split(".")[0];
+                        console.log(biz, version, subversion)
+                        $('[name=url]').val(url)
+                        $('[name=bundle_name]').val(biz)
+                        $('[name=version]').val(version)
+                        $('[name=subversion]').val(subversion)
+                        $('[name=platform]').val(platform)
+                        $('[name=md5]').val(xmd5)
+                    }))
+                </script>
+            </div>
+        </div>
+        <div class="layui-row layui-col-space15">
+            <div class="layui-col-xs5">
+                <label class="block relative">
+                    <span class="color-green font-w7">业务名称</span>
+                    <span class="color-desc margin-left-5">BundleName</span>
+                    {if isset($vo) and isset($vo.bundle_name)}
+                    <input disabled value='{$vo.bundle_name|default=""}' class="layui-input layui-bg-gray">
+                    {else}
+                    <input name="bundle_name" value='{$vo.bundle_name|default=""}' required pattern="^.{4,}$"
+                        placeholder="请输入业务包名称" class="layui-input">
+                    {/if}
+                    <span class="help-block">业务包名称首字母大写</span>
+                </label>
+            </div>
+            <div class="layui-col-xs5">
+                <label class="block relative">
+                    <span class="color-green font-w7">业务版本号</span>
+                    <span class="color-desc margin-left-5">Version</span>
+                    <input name="version" value='{$vo.version|default=""}' required placeholder="请输入业务包版本号"
+                        class="layui-input">
+                    <span class="help-block">业务包版本号根据上传的压缩包名称填写，如：Home-v1.0.20200421100334.zip， 填写： v1.0 </span>
+                </label>
+            </div>
+
+            <div class="layui-col-xs5">
+                <label class="block relative">
+                            <span class="color-green font-w7">业务打包时间</span>
+                            <span class="color-desc margin-left-5">Subversion</span>
+                            <input name="subversion" value='{$vo.subversion|default=""}' required
+                                placeholder="请输入业务打包时间"
+                                class="layui-input">
+                            <span class="help-block">业务包版本号根据上传的压缩包名称填写，如：Home-v1.0.20200421100334.zip， 填写：20200421100334 </span>
+                        </label>
+                    </div>
+
+        <div class="layui-col-xs5">
+            <label class="block relative">
+                <span class="color-green font-w7">灰度规则</span>
+                <span class="color-desc margin-left-5">Gray</span>
+                <input name="gray" value='{$vo.gray|default="1"}' required placeholder="请输入灰度规则"
+                    class="layui-input">
+                <span class="help-block">灰度规则</span>
+            </label>
+        </div>
+
+        <div class="layui-col-xs5">
+            <label class="block relative">
+                <span class="color-green font-w7">平台</span>
+                <span class="color-desc margin-left-5">Platform</span>
+                <input name="platform" value='{$vo.platform|default="android"}' required placeholder="请输入平台"
+                    class="layui-input">
+                <input name="md5" value='{$vo.md5|default=""}' required type="hidden">
+                <span class="help-block">平台</span>
+            </label>
+        </div>
+        </div>       
+        <div class="hr-line-dashed"></div>
+        {notempty name='vo.id'}<input type='hidden' value='{$vo.id}' name='id'>{/notempty}
+        <div class="layui-form-item text-center">
+            <button class="layui-btn" type='submit'>保存数据</button>
+            <button class="layui-btn layui-btn-danger" type='button' data-confirm="确定要取消编辑吗？" data-close>取消编辑</button>
+        </div>
+    </div>
+</form>

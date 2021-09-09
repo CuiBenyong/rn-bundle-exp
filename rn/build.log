@@ -1,0 +1,500 @@
+/Users/cuibenyong/Documents/design/qml/rn
+-e start clear build path
+-e rm -rf ../CBYRNDemo/CBYRNDemo/RNResources/core
+react-native bundle --config ./core.config.js  --entry-file ./indexCore.js --platform ios --dev false --bundle-output ../CBYRNDemo/CBYRNDemo/RNResources/core/core.ios.js --sourcemap-output ../CBYRNDemo/CBYRNDemo/RNResources/core/core.ios.map --assets-dest ../CBYRNDemo/CBYRNDemo/RNResources/core
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Core
+transform[stdout]: Core
+transform[stdout]: Core
+transform[stdout]: Core
+transform[stdout]: Core
+entryFilePath indexCore.js
+info Writing bundle output to:, ../CBYRNDemo/CBYRNDemo/RNResources/core/core.ios.js
+info Writing sourcemap output to:, ../CBYRNDemo/CBYRNDemo/RNResources/core/core.ios.map
+info Done writing bundle output
+info Done writing sourcemap output
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+info Copying 19 asset files
+info Done copying assets
+-e start clear build path
+-e rm -rf ../androidDemo/app/src/main/assets/bundle/core
+react-native bundle --config ./core.config.js  --entry-file ./indexCore.js --platform android --dev false --bundle-output ../androidDemo/app/src/main/assets/bundle/core/core.android.js --sourcemap-output ../androidDemo/app/src/main/assets/bundle/core/core.android.map --assets-dest ../androidDemo/app/src/main/assets/bundle/core
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Core
+transform[stdout]: Core
+transform[stdout]: Core
+transform[stdout]: Core
+transform[stdout]: Core
+entryFilePath indexCore.js
+info Writing bundle output to:, ../androidDemo/app/src/main/assets/bundle/core/core.android.js
+info Writing sourcemap output to:, ../androidDemo/app/src/main/assets/bundle/core/core.android.map
+info Done writing bundle output
+info Done writing sourcemap output
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+Core
+info Copying 21 asset files
+info Done copying assets
+-e start clear build path
+-e rm -rf ../CBYRNDemo/CBYRNDemo/RNResources/home
+react-native bundle --config ./home.config.js  --entry-file ./src/pages/Home/index.js --platform ios --dev false --bundle-output ./build/ios/Home/Home.ios.js --sourcemap-output ./build/ios/Home/Home.ios.map --assets-dest ./build/ios/home/
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+entryFilePath src/pages/Home/index.js
+info Writing bundle output to:, ../CBYRNDemo/CBYRNDemo/RNResources/home/home.ios.js
+info Writing sourcemap output to:, ../CBYRNDemo/CBYRNDemo/RNResources/home/home.ios.map
+info Done writing bundle output
+info Done writing sourcemap output
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+info Copying 59 asset files
+info Done copying assets
+-e start clear build path
+-e rm -rf ../androidDemo/app/src/main/assets/bundle/home
+react-native bundle --config ./home.config.js  --entry-file ./src/pages/Home/index.js --platform android --dev false --bundle-output ./build/android/Home/Home.android.js --sourcemap-output ./build/android/Home/Home.android.map --assets-dest ./build/android/home/
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+transform[stdout]: Home
+entryFilePath src/pages/Home/index.js
+info Writing bundle output to:, ../androidDemo/app/src/main/assets/bundle/home/home.android.js
+info Writing sourcemap output to:, ../androidDemo/app/src/main/assets/bundle/home/home.android.map
+info Done writing bundle output
+info Done writing sourcemap output
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+Home
+info Copying 59 asset files
+info Done copying assets
+-e start clear build path
+react-native bundle --config ./biz.config.js  --entry-file ./src/pages/Position/index.js --platform ios --dev false --bundle-output ./build/ios/Position/Position.ios.js --sourcemap-output ./build/ios/Position/Position.ios.map --assets-dest ../CBYRNDemo/CBYRNDemo/RNResources/position
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+entryFilePath src/pages/Position/index.js
+Biz Position
+info Writing bundle output to:, ../CBYRNDemo/CBYRNDemo/RNResources/position/position.ios.js
+info Writing sourcemap output to:, ../CBYRNDemo/CBYRNDemo/RNResources/position/position.ios.map
+info Done writing sourcemap output
+info Done writing bundle output
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+info Copying 47 asset files
+info Done copying assets
+-e start clear build path
+react-native bundle --config ./biz.config.js  --entry-file ./src/pages/Position/index.js --platform android --dev false --bundle-output ./build/android/Position/Position.android.js --sourcemap-output ./build/android/Position/Position.android.map --assets-dest ../androidDemo/app/src/main/assets/bundle/position
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+entryFilePath src/pages/Position/index.js
+Biz Position
+info Writing bundle output to:, ../androidDemo/app/src/main/assets/bundle/position/position.android.js
+info Writing sourcemap output to:, ../androidDemo/app/src/main/assets/bundle/position/position.android.map
+info Done writing bundle output
+info Done writing sourcemap output
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+info Copying 47 asset files
+info Done copying assets
+-e start clear build path
+react-native bundle --config ./biz.config.js  --entry-file ./src/pages/Position/index.js --platform ios --dev false --bundle-output ./build/ios/Position/Position.ios.js --sourcemap-output ./build/ios/Position/Position.ios.map --assets-dest ../CBYRNDemo/CBYRNDemo/RNResources/position
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+entryFilePath src/pages/Position/index.js
+Biz Position
+info Writing bundle output to:, ../CBYRNDemo/CBYRNDemo/RNResources/position/position.ios.js
+info Writing sourcemap output to:, ../CBYRNDemo/CBYRNDemo/RNResources/position/position.ios.map
+info Done writing bundle output
+info Done writing sourcemap output
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+info Copying 47 asset files
+info Done copying assets
+-e start clear build path
+react-native bundle --config ./biz.config.js  --entry-file ./src/pages/Position/index.js --platform android --dev false --bundle-output ./build/android/Position/Position.android.js --sourcemap-output ./build/android/Position/Position.android.map --assets-dest ../androidDemo/app/src/main/assets/bundle/position
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+transform[stdout]: Position
+entryFilePath src/pages/Position/index.js
+Biz Position
+info Writing bundle output to:, ../androidDemo/app/src/main/assets/bundle/position/position.android.js
+info Writing sourcemap output to:, ../androidDemo/app/src/main/assets/bundle/position/position.android.map
+info Done writing bundle output
+info Done writing sourcemap output
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+Position
+info Copying 47 asset files
+info Done copying assets
+-e start clear build path
+react-native bundle --config ./biz.config.js  --entry-file ./src/pages/Notice/index.js --platform ios --dev false --bundle-output ./build/ios/Notice/Notice.ios.js --sourcemap-output ./build/ios/Notice/Notice.ios.map --assets-dest ../CBYRNDemo/CBYRNDemo/RNResources/notice
+warning: the transform cache was reset.
+Loading dependency graph, done.
+transform[stdout]: Notice
+transform[stdout]: Notice
+transform[stdout]: Notice
+transform[stdout]: Notice
+transform[stdout]: Notice
+entryFilePath src/pages/Notice/index.js
+Biz Notice
+info Writing bundle output to:, ../CBYRNDemo/CBYRNDemo/RNResources/notice/notice.ios.js
+info Writing sourcemap output to:, ../CBYRNDemo/CBYRNDemo/RNResources/notice/notice.ios.map
+info Done writing sourcemap output
+info Done writing bundle output
+Notice
+Notice
+Notice
+info Copying 4 asset files
+info Done copying assets
+-e start clear build path
+react-native bundle --config ./biz.config.js  --entry-file ./src/pages/Notice/index.js --platform android --dev false --bundle-output ./build/android/Notice/Notice.android.js --sourcemap-output ./build/android/Notice/Notice.android.map --assets-dest ../androidDemo/app/src/main/assets/bundle/notice
+Loading dependency graph, done.
+transform[stdout]: Notice
+transform[stdout]: Notice
+transform[stdout]: Notice
+transform[stdout]: Notice
+transform[stdout]: Notice
+entryFilePath src/pages/Notice/index.js
+Biz Notice
+info Writing bundle output to:, ../androidDemo/app/src/main/assets/bundle/notice/notice.android.js
+info Writing sourcemap output to:, ../androidDemo/app/src/main/assets/bundle/notice/notice.android.map
+info Done writing sourcemap output
+info Done writing bundle output
+Notice
+Notice
+Notice
+info Copying 4 asset files
+info Done copying assets

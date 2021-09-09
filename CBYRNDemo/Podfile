@@ -1,0 +1,10 @@
+inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
+platform:ios, '8.0'    
+target "CBYRNDemo" do
+pod 'CBYHybrid', :path => './LocalPod/CBYHybrid/Source/CBYHybrid.podspec'
+#pod 'CBYHybrid', :path => './LocalPod/CBYHybrid/Source/CBYHybrid_release.podspec'
+pod 'Bugly'
+pod 'SVProgressHUD'
+pod 'Toast', '~> 4.0.0'
+end
